@@ -1,0 +1,108 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f5f7fb;
+    -fx-text-fill: #172033;
+}
+
+.top-bar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 16 22;
+    -fx-border-color: #dde4ee;
+    -fx-border-width: 0 0 1 0;
+}
+
+.app-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #172033;
+}
+
+.sidebar {
+    -fx-background-color: #182235;
+    -fx-padding: 18 12;
+    -fx-spacing: 8;
+    -fx-pref-width: 220px;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d9e2f1;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10 14;
+    -fx-background-radius: 6;
+    -fx-pref-width: 190px;
+}
+
+.nav-button:hover {
+    -fx-background-color: #26344f;
+}
+
+.content {
+    -fx-padding: 22;
+    -fx-spacing: 16;
+}
+
+.page-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #172033;
+}
+
+.section-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+
+.panel {
+    -fx-background-color: #ffffff;
+    -fx-padding: 16;
+    -fx-background-radius: 8;
+    -fx-border-color: #dfe7f2;
+    -fx-border-radius: 8;
+}
+
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-background-radius: 6;
+    -fx-padding: 9 14;
+}
+
+.secondary-button {
+    -fx-background-color: #e8eef8;
+    -fx-text-fill: #172033;
+    -fx-background-radius: 6;
+    -fx-padding: 9 14;
+}
+
+.danger-button {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-background-radius: 6;
+    -fx-padding: 9 14;
+}
+
+.dashboard-card {
+    -fx-background-color: #ffffff;
+    -fx-padding: 18;
+    -fx-background-radius: 8;
+    -fx-border-color: #dfe7f2;
+    -fx-border-radius: 8;
+    -fx-min-width: 170px;
+}
+
+.card-number {
+    -fx-font-size: 28px;
+    -fx-font-weight: 700;
+}
+
+.muted {
+    -fx-text-fill: #62708a;
+}
+
+.error-text {
+    -fx-text-fill: #b91c1c;
+}

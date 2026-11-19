@@ -11,7 +11,7 @@ JScolaris is a JavaFX desktop app for a school's academic records. It was built 
 
 ## Run locally
 
-You'll need JDK 17 or newer, Maven, and a local MySQL server. JavaFX and the other Java dependencies are declared in `pom.xml`.
+You’ll need JDK 17 or newer, Maven, and a local MySQL server. JavaFX and the other Java dependencies are declared in `pom.xml`.
 
 1. From the project root, open the MySQL client with an administrator account using `mysql -u root -p`. Run these commands in that client. The sample data is optional. Replace `<choose-a-local-password>` with your own password.
 
@@ -52,7 +52,7 @@ To build the project without opening the UI, run `mvn verify`.
 2. Open **Import** and select [`sample-data/students.csv`](sample-data/students.csv). The same five column headers are used for Excel imports.
 3. Open **Export PDF**, select a student with grades, and choose where to save their PDF report card.
 
-## How it's organized
+## How it’s organized
 
 | Path | Role |
 | --- | --- |

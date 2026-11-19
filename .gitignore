@@ -1,0 +1,9 @@
+/target/
+/reports/
+/.idea/
+/.vscode/
+*.iml
+*.log
+.env
+.env.*
+/src/main/resources/database.properties
